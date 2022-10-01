@@ -1,0 +1,63 @@
+/* h1{
+    font-size: 200px;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Reem+Kufi+Fun:wght@700&display=swap');
+
+body {
+    background-image: url("Images/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.maincontainer{
+    background-color: black;
+    opacity: 0.8;
+    border: 2px solid black;
+    width: 40vh;
+    height: 30vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30vh;
+    
+    color: aliceblue;
+    border-radius: 50px;
+}
+
+#s{
+    padding: 1.2vh;
+    font-size: 2vh;
+    border-radius: 50px;
+    border-style: none;
+}
+
+.Weather{
+    display: flex;
+    margin-top: 5px;
+}
+
+#cloudy1{
+    margin-right: 10px;
+    width: 9vh;  
+}
+
+.w2{
+    margin-left: 10px;
+    font-size: 6.3vh;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.status{
+    /* border: 2px white solid; */
+    margin-top: -15px;
+    font-size: 45PX;
+    font-family: 'Reem Kufi Fun', sans-serif;
+}
